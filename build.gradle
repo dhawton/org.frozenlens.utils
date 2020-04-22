@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group 'org.frozenlens'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.imgscalr:imgscalr-lib:4.2"
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+}
